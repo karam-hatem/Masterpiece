@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background-image: url('../image/background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+    
+.main
+  {
+    /* width: 100%; */
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    position:relative ;
+    /* top: 15px; */
+ }
+ .main2{
+    position: absolute;
+ }
+
+.main_in_div
+    {
+    width: 40%;
+    height: 100%;
+    /* background-color: #7895B2; */
+     float:left;
+    }
+
+ .main_in_div2
+    {
+    width: 55%;
+     margin-left: 45px;
+     margin-top:110px;
+     position: relative;
+     /* top: 80px; */
+    }
+
+    .main_in_div h2
+    {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top:.6em;
+    }
+
+    .main_in_div h1
+    {
+    font-size:35px;
+    text-align: center;
+    color: #fff0c9;
+    margin-bottom:2em;
+    margin-left: 50px;
+        
+    }
+
+    .main_in_div1 h3
+    {
+    font-size: 25px;
+    color: white;
+    margin-left:6em;
+    /* margin-top:2.5em;    */
+    /* margin-bottom:1.5em; */
+    }
+
+    .main_in_div1 h4
+    {
+    font-size: 18px;
+    color: #f06868;
+    margin-top: 5px;
+    margin-left:12em;
+    margin-bottom:2.5em;
+    }
+       /* ///////////inputMassage///////مكان زر ادخال الهاتف والموضوع والايميل/////////// */
+    .main_in_div2 input
+    {
+    width:75%;
+    height:50px;
+    font-size: 22px;
+    border-radius:8px;
+    margin-left:10em;
+    margin-top:15px;
+    background-color:#fff9f7a9;
+    /* background: transparent; */
+    /* margin-left:4em; */
+    /* color: white; */
+    /* padding-left: 20px; */
+    /* border: none; */
+    }
+       /* ///////////Text AreaMassage///مكان كتابة المسج/////////////// */
+    .main_in_div2 textarea
+    {
+    width: 76%;
+    height:100px;
+    font-size:22px;
+    border-radius: 10px;
+    margin-left:10em;
+    margin-top:1em;
+    /* background-color:#ffefdc; */
+     /* color: white;  */
+    /* padding-left: 20px; */
+    /* padding-top: 20px; */
+    /* border: none; */
+    }
+
+    /* ///////////Button Send Massage/////////// زر ارسال البيانات/////// */
+    .main_in_div2 button
+    {
+    width:80%;
+    height: 60px;
+    background-color: #fff9f7a9;
+    color: white;
+    border-radius:30px;
+    border: none;
+    font-size:20px;
+    margin-top: 2em;
+    margin-left:10.5em;
+    cursor: pointer;
+    background: transparent;
+    /* text-align: center; */
+    }
+    .main_in_div2 button:hover
+    {
+        background-color: #e55b5b;
+    }

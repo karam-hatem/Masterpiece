@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../image/1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    
+    
+}
+                /* //////side navbar////// */
+.container{
+    min-height: 100vh;
+}
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width:45px;
+    /* width: 280px; */
+    /* background:rgb(0, 0, 0); */
+    background:#2d2a30;
+    overflow:hidden;
+    transition:2s;
+}
+nav:hover{
+    width:240px;
+    transition:1s;
+}
+
+li a{
+    position:relative;
+    width: 280px;
+    font-size: 20px;
+    color:white;
+    display:table;
+    padding: 10px;
+    margin-top: 100px;
+    text-decoration: none;
+}
+nav .fas{
+    position: relative;
+    width:70px;
+    height:50px;
+    top: 20px;
+    font-size:20px;
+    text-align: center;
+}
+.nav-text{
+    position: relative;
+    top:1px;
+    margin-left: 10px;
+}
+
+  li a:hover{
+    background:rgb(159, 159, 159);
+}
+
+li a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+              /* //////Menu_item && Add Menu_item////// */
+.main{
+    font-size: 25px;
+    display:flex;
+    /* padding-left: 10em; */
+    position: absolute;
+}
+
+.sec1_main{
+    position: relative;
+    margin-left: 10em;
+}
+
+.main button{
+    font-size:20px;
+}
+
+.sec1_a {
+    margin-top: 1em;
+}
+
+.sec1_main .sec1_a button {
+    margin-left: 7em;
+    margin-bottom: 2em;
+    font-size:30px;
+    background-color: #2d2a30;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 40px;
+    /* background: none; */
+}
+.sec1_main .sec1_a button:hover{
+    background-color:rgb(118, 9, 9);
+    color: black;
+    
+}
+.sec1_main .sec1_a p{
+    display: inline-block;
+    font-size: 35px;
+    color: whitesmoke;
+}
+                
+
+                /* //////Form Add Restaurant//////// */
+.wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    margin-left: 10em;
+  }
+  
+  .wrapper form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+  form .input-box input{
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    /* background:transparent ; */
+    /* color: white; */
+    font-size: 25px;
+  }  
+
+  .input-box.button input{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    margin-left: 1em;
+    background: #d3d3d3;
+    cursor: pointer;
+  }
+  .input-box.button input:hover{
+    background: rgb(118, 9, 9);
+  }
+
+  .input-box  button {
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+  

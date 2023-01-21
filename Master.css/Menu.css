@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../image/background.png') ;
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+                /* //////side navbar////// */
+.container{
+    min-height: 100vh;
+}
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width:45px;
+    /* width: 280px; */
+    /* background:rgb(0, 0, 0); */
+    background:#2d2a30;
+    
+    overflow:hidden;
+    transition:2s;
+}
+nav:hover{
+    width:240px;
+    transition:1s;
+}
+
+li a{
+    position:relative;
+    width: 280px;
+    font-size: 20px;
+    color:white;
+    display:table;
+    padding: 10px;
+    margin-top: 100px;
+    text-decoration: none;
+}
+nav .fas{
+    position: relative;
+    width:70px;
+    height:50px;
+    top: 20px;
+    font-size:20px;
+    text-align: center;
+}
+.nav-text{
+    position: relative;
+    top:1px;
+    margin-left: 10px;
+}
+
+  li a:hover{
+    background:rgb(159, 159, 159);
+}
+
+li a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+/* //////Menu && Add Menu////// */
+
+.k0{
+    position: relative;
+}
+.k1 {
+    position: absolute;
+    left: 18em;
+    top: 5em;
+}
+
+.k1 span {
+    font-size: 30px;
+    color: white;
+
+}
+
+/* //////Form Add Restaurant//////// */
+
+body {
+    /* background-color: #f5f5f5; */
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .wrapper {
+    /* width: 870px; */
+    margin-left:15em;
+    /* background-color: #fff; */
+    /* padding: 50px; */
+  }
+  
+  .tin-fmp-menu {
+    text-align: center;  
+  }
+  
+ 
+  
+  .tin-fmp-menu .menu-header h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+    /* line-height: 36px; */
+    font-size: 36px;
+    color: #fff;
+  }
+  
+
+  
+  /* .tin-fmp-menu .menu-header .categories ul {
+    list-style-type: none;
+    text-align: center;
+  } */
+  
+  .tin-fmp-menu .menu-header .categories ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+  
+  .tin-fmp-menu .menu-header .categories ul li:hover {
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  /* .tin-fmp-menu .menu-header .categories ul .active {
+    background-color: darkorange;
+    pointer-events: none;
+  } */
+  
+  /* .tin-fmp-menu .menu-items-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  } */
+  
+  .tin-fmp-menu .menu-items-container .menu-item {
+    width: 10%;
+    margin:5em;
+    padding:5px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  /* .tin-fmp-menu .menu-items-container .menu-item:nth-child(3n-2) {
+    margin-left: 0;
+  } */
+  
+  .tin-fmp-menu .menu-items-container .menu-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  /* .menu-items-container .trad {
+    background-color: pink !important;
+  } */
+  
+  /* .menu-items-container .paleo {
+    background-color: tan !important;
+  } */
+  
+  /* .menu-items-container .keto {
+    background-color: lightyellow !important;
+  }
+  
+  .menu-items-container .vegan {
+    background-color: lightgreen !important;
+  }
+  
+  .menu-items-container .lean {
+    background-color: lightsalmon !important;
+  }
+  
+  .menu-items-container .fresh {
+    background-color: lightblue !important;
+  }
+   */
